@@ -4,6 +4,10 @@ from django.utils import timezone
 
 
 class Post(models.Model):
+    """
+    TODO: wright docstring about that model
+    read here https://peps.python.org/pep-0257/#multi-line-docstrings
+    """
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     text = models.TextField()
