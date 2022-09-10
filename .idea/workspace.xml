@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4cfd2bf-296d-495b-840c-a5177f0dd0bb" name="Changes" comment="">
+    <list default="true" id="d4cfd2bf-296d-495b-840c-a5177f0dd0bb" name="Changes" comment="Main Blog">
       <change afterPath="$PROJECT_DIR$/.idea/djangogirls.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -4893,6 +4893,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662744922131</updated>
     </task>
+    <task id="LOCAL-00001" summary="Main Blog">
+      <created>1662838079642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662838079643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -4905,5 +4913,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Blog" />
   </component>
 </project>
