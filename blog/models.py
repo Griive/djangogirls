@@ -1,3 +1,4 @@
+"""from or import, open access to code from other files"""
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
@@ -5,8 +6,8 @@ from django.utils import timezone
 
 class Post(models.Model):
     """
-    TODO: wright docstring about that model
-    read here https://peps.python.org/pep-0257/#multi-line-docstrings
+     https://peps.python.org/pep-0257/#multi-line-docstrings
+    Class "Post" includes list the classes, exceptions and functions
     """
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)

@@ -12,6 +12,8 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+Django will redirect all requests for 'http://127.0.0.1:8000/' to 'blog.urls' and look there for further instructions;
+Any URL that starts with admin/ will be matched by Django to a 'view'.
 """
 from django.contrib import admin
 from django.urls import path, include
