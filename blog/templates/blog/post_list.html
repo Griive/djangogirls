@@ -7,7 +7,7 @@
                 {{ post.published_date }}
             </div>
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-            # link to post
+            # link from the title of the post in the list to the page with detailed information about the post
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
     {% endfor %}

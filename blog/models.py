@@ -1,4 +1,6 @@
-"""from or import, open access to code from other files"""
+"""from or import, open access to code from other files;
+here is the post model
+"""
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
